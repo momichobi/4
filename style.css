@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  height: 270px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+
+#header li {
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+#header li a {
+  color: black;
+}
+
+#header li img.icon {
+  width: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
+
+.group {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 100px
+}
+
+.big-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+#about ul {
+  margin-bottom: 30px;
+}
+
+
+#about li:first-child {
+  margin-bottom: 30px;
+}
+
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#works li {
+  width: 30%;
+  margin-bottom: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px silver;
+  margin-bottom: 25px;
+}
+
+#news dt {
+  border-bottom: solid 1px silver;
+  width: 20%;
+  padding: 15px;
+}
+
+#news dd {
+  border-bottom: solid 1px silver;
+  width: 80%;
+  padding: 15px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#contact dt {
+  width: 15%;
+}
+
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+#contact dd input {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+#contact dd input {
+  border: solid 1px silver;
+  width: 100%;
+  padding: 10px;
+}
+
+#contact dd textarea {
+  height: 70px;
+  width: 100%;
+}
+
+#contact .button {
+  text-align: center;
+}
+
+#contact .button input {
+  width: 200px;
+  background: black;
+  color: white;
+  padding: 15px 0;
+  border: solid 1px black;
+  margin-bottom: 150px;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 8px;
+  padding: 10px 20px;
+  text-align: center;
+}
