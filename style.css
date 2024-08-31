@@ -85,10 +85,29 @@ img {
   max-width: 100%;
 }
 
-.box{
+.box-1{
   display: flex;
   border-bottom: solid 1px silver;
+}
 
+.box-2{
+  display: flex;
+  border-bottom: solid 1px silver;
+}
+
+.box-3{
+  display: flex;
+  border-bottom: solid 1px silver;
+}
+
+.box-4{
+  display: flex;
+  border-bottom: solid 1px silver;
+}
+
+.box-5{
+  display: flex;
+  border-bottom: solid 1px silver;
 }
 
 #news dl {
